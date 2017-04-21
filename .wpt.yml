@@ -1,0 +1,23 @@
+type: plugin
+files:
+    src:
+        - '**'
+        - '!node_modules/**'
+        - '!vendor/**'
+        - '!tests/**'
+        - '!assetssrc/**'
+        - '!test/**'
+        - '!build/**'
+        - '!tmp/**'
+        - '!README.md'
+    main: duplicate-post.php
+    assets:
+        - assets/*.png
+        - assets/*.svg
+gh:
+    repo: SNAPWERK/duplizieren-von-beitraegen-und-seiten
+    username: SNAPWERK
+wporg:
+    slug: duplizieren-von-beitraegen-und-seiten
+    username: snapwerk
+    buildPath: build
