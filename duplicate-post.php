@@ -3,7 +3,7 @@
  Plugin Name: Duplizieren von Beiträgen und Seiten
  Plugin URI: https://snapwerk.de
  Description: Duplizieren von Beiträgen und Seiten
- Version: 1.0
+ Version: 1.1
  Author: Snapwerk GbR
  Author URI: https://snapwerk.de
  Text Domain: duplicate-post
