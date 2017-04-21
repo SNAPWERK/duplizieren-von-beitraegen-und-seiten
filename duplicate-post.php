@@ -1,7 +1,7 @@
 <?php
 /*
  Plugin Name: Duplizieren von Beiträgen und Seiten
- Plugin URI: https://snapwerk.de
+ Plugin URI: https://snapwerk.de/duplizieren-von-beitraegen-und-seiten
  Description: Duplizieren von Beiträgen und Seiten
  Version: 1.1
  Author: Snapwerk GbR
