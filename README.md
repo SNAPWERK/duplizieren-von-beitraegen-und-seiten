@@ -3,7 +3,7 @@
 
 Duplizieren von Beiträgen und Seiten.
 
-**Contributors:** [snapwerk gbr](https://profiles.wordpress.org/snapwerk gbr)<br>
+**Contributors:** [snapwerk](https://profiles.wordpress.org/snapwerk)<br>
 **Tags:** [duplizieren](https://wordpress.org/plugins/tags/duplizieren), [klonen](https://wordpress.org/plugins/tags/klonen), [kopieren](https://wordpress.org/plugins/tags/kopieren), [einfügen](https://wordpress.org/plugins/tags/einfügen), [duplicate](https://wordpress.org/plugins/tags/duplicate), [copy](https://wordpress.org/plugins/tags/copy)<br>
 **Requires at least:** 3.6<br>
 **Tested up to:** 4.7<br>
