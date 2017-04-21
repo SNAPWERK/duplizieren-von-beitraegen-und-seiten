@@ -40,13 +40,12 @@ Das Plugin erfüllt nicht Ihre Anforderungen? Wir [programmieren Ihr individuell
 
 1. Duplizieren von Beiträgen und Seiten in Ihrer WordPress Instanz
 
-== Upgrade Notice ==
+== Changelog ==
 
 = 1.1 (2017-04-21) =
 * Neue Settings Möglichkeiten
 * Entfernung der Spenden Hinweise
 
-== Changelog ==
 
 = 1.0 (2017-04-20) =
 * Einreichen der erste Versions auf WordPress.org

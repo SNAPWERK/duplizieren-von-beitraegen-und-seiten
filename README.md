@@ -8,7 +8,7 @@ Duplizieren von Beiträgen und Seiten.
 **Requires at least:** 3.6<br>
 **Tested up to:** 4.7<br>
 **Stable tag:** 1.1<br>
-**License:** [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)<br>
+**License:** [GPLv3 or later](http://www.gnu.org/licenses/gpl-3.0.html)<br>
 **Donate link:** https://snapwerk.de<br>
 
 ## Description ##
@@ -18,8 +18,6 @@ Dieses Plugin ermöglicht das einfache und schnelle duplizieren von Seiten und B
 So funktioniert's:
 
 1. In den Beiträgen und Seiten erscheint unter dem Beitragsname/Seitennamen ein Link zum 'Duplizieren'.
-
-1. In 'Edit Posts'/'Edit Pages', you can click on 'Clone' link below the post/page title: this will immediately create a copy and return to the list.
 
 2. Durch anklicken von mehreren Seiten, können Beiträge und Seiten gleichzeitig dupliziert werden.
 
@@ -40,14 +38,11 @@ Das Plugin erfüllt nicht Ihre Anforderungen? Wir [programmieren Ihr individuell
 ## Screenshots ##
 
 
-## Upgrade Notice ##
+## Changelog ##
 
 ### 1.1 (2017-04-21) ###
 * Neue Settings Möglichkeiten
 * Entfernung der Spenden Hinweise
-
-
-## Changelog ##
 
 ### 1.0 (2017-04-20) ###
 * Einreichen der erste Versions auf WordPress.org
