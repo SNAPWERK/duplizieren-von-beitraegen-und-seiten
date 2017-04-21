@@ -44,12 +44,13 @@ Das Plugin erfüllt nicht Ihre Anforderungen? Wir [programmieren Ihr individuell
 
 == Upgrade Notice ==
 
-= 1.0 (2017-04-21) =
-* Einreichen der erste Versions auf WordPress.org
+= 1.1 (2017-04-21) =
+* Neue Settings Möglichkeiten
+* Entfernung der Spenden Hinweise
 
 == Changelog ==
 
-= 1.0 (2017-04-21) =
+= 1.0 (2017-04-20) =
 * Einreichen der erste Versions auf WordPress.org
 
 == Contribute ==
