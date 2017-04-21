@@ -42,12 +42,12 @@ Das Plugin erfüllt nicht Ihre Anforderungen? Wir [programmieren Ihr individuell
 
 == Changelog ==
 
-= 1.1 (2017-04-21) =
+= 1.1 =
 * Neue Settings Möglichkeiten
 * Entfernung der Spenden Hinweise
 
 
-= 1.0 (2017-04-20) =
+= 1.0 =
 * Einreichen der erste Versions auf WordPress.org
 
 == Contribute ==
