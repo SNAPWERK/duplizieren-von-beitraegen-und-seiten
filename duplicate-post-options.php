@@ -446,12 +446,12 @@ ul.items {
 		<section>
 			<ul class="clearfix">
 				<li class="itemDetail">
-					<h3 class="itemTitle"><a href="https://de.wordpress.org/plugins/ctw-ssl-for-cloudflare/" target="_blank">Cloudflare SSL by Weslink</a></h3>
-					<div class="itemImage"><a href="https://de.wordpress.org/plugins/ctw-ssl-for-cloudflare/" target="_blank"><img src="<?php echo plugin_dir_url( __FILE__ ) ?>/compat/assets/img/sslforcloudflare.png" title="Cloudflare SSL by Weslink" /></a></div>
+					<h3 class="itemTitle"><a href="plugin-install.php?tab=plugin-information&plugin=ctw-ssl-for-cloudflare&TB_iframe=true&width=600&height=550" >Cloudflare SSL by Weslink</a></h3>
+					<div class="itemImage"><a href="plugin-install.php?tab=plugin-information&plugin=ctw-ssl-for-cloudflare&TB_iframe=true&width=600&height=550" ><img src="<?php echo plugin_dir_url( __FILE__ ) ?>/compat/assets/img/sslforcloudflare.png" title="Cloudflare SSL by Weslink" /></a></div>
 					<div class="itemDescription">
 						CloudFlare Flexible SSL needs some tiny Modification to get not into a redirect loop. This Plugins makes your WordPress Site ready to use Cloudflare SSL and prevents the common SSL infinite loop Problem.
 					</div>
-					<div class="itemButtonRow"><div class="itemButton button-secondary"><a href="https://de.wordpress.org/plugins/ctw-ssl-for-cloudflare/" target="_blank"><?php echo __('More info', 'duplizieren-von-beitraegen-und-seiten'); ?></a></div></div>
+					<div class="itemButtonRow"><div class="itemButton button-secondary"><a href="plugin-install.php?tab=plugin-information&plugin=ctw-ssl-for-cloudflare&TB_iframe=true&width=600&height=550" class="thickbox open-plugin-details-modal" ><?php echo __('More info', 'duplizieren-von-beitraegen-und-seiten'); ?></a></div></div>
 				</li>
 			</ul>
 		</section>
