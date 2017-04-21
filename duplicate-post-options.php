@@ -159,6 +159,58 @@ a.toggle_link {
 img#donate-button{
 	vertical-align: middle;
 }
+
+ul.items {
+	clear:both;
+}
+
+.itemDetail {
+	background: #fff;
+	width: 250px;
+	min-height: 270px;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 15px;
+	position: relative;
+	margin: 0 10px 10px 0;
+}
+.itemTitle {
+	margin-top:0px;
+	margin-bottom:10px;
+}
+.itemImage {
+	text-align: center;
+}
+.itemImage img {
+	width: 100%;
+	height: auto;
+}
+.itemDescription {
+	margin-bottom:30px;
+}
+.itemButtonRow {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	width:100%;
+}
+.itemButton {
+	float:right;
+}
+.itemButton a {
+	text-decoration: none;
+	color: #555;
+}
+.itemButton a:hover {
+	text-decoration: none;
+	color: #23282d;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 </style>
 
 
@@ -172,6 +224,12 @@ img#donate-button{
 				href="<?php echo admin_url() ?>/index.php?page=duplicate-post-who"><?php esc_html_e('Permissions', 'duplizieren-von-beitraegen-und-seiten'); ?>
 			</a> <a class="nav-tab"
 				href="<?php echo admin_url() ?>/index.php?page=duplicate-post-where"><?php esc_html_e('Display', 'duplizieren-von-beitraegen-und-seiten'); ?>
+			</a>
+			<a class="nav-tab"
+			   href="<?php echo admin_url() ?>/index.php?page=duplicate-post-when"><?php esc_html_e('Support', 'duplizieren-von-beitraegen-und-seiten'); ?>
+			</a>
+			<a class="nav-tab"
+			   href="<?php echo admin_url() ?>/index.php?page=duplicate-post-when"><?php esc_html_e('Other Plugins', 'duplizieren-von-beitraegen-und-seiten'); ?>
 			</a>
 		</h2>
 
@@ -295,6 +353,10 @@ img#donate-button{
 					</td>
 				</tr>
 			</table>
+			<p class="submit">
+				<input type="submit" class="button-primary"
+					   value="<?php esc_html_e('Save Changes', 'duplizieren-von-beitraegen-und-seiten') ?>" />
+			</p>
 		</section>
 		<section>
 			<table class="form-table">
@@ -332,6 +394,10 @@ img#donate-button{
 					</td>
 				</tr>
 			</table>
+			<p class="submit">
+				<input type="submit" class="button-primary"
+					   value="<?php esc_html_e('Save Changes', 'duplizieren-von-beitraegen-und-seiten') ?>" />
+			</p>
 		</section>
 		<section>
 			<table class="form-table">
@@ -366,11 +432,30 @@ img#donate-button{
 					</td>
 				</tr>				
 			</table>
+			<p class="submit">
+				<input type="submit" class="button-primary"
+					   value="<?php esc_html_e('Save Changes', 'duplizieren-von-beitraegen-und-seiten') ?>" />
+			</p>
 		</section>
-		<p class="submit">
-			<input type="submit" class="button-primary"
-				value="<?php esc_html_e('Save Changes', 'duplizieren-von-beitraegen-und-seiten') ?>" />
-		</p>
+		<section>
+			<h2>Wir helfen Ihnen gern.</h2>
+			<p>Sie haben Probleme bei Ihrer WordPress Instanz? Sprechen Sie uns an.</p>
+			<p>Sie können uns gern <a href="https://snapwerk.de" title="Snapwerk" target="_blank">bei WordPress Problemen kontaktieren</a>.</p>
+
+		</section>
+		<section>
+			<ul class="clearfix">
+				<li class="itemDetail">
+					<h3 class="itemTitle"><a href="https://de.wordpress.org/plugins/ctw-ssl-for-cloudflare/" target="_blank">Cloudflare SSL by Weslink</a></h3>
+					<div class="itemImage"><a href="https://de.wordpress.org/plugins/ctw-ssl-for-cloudflare/" target="_blank"><img src="<?php echo plugin_dir_url( __FILE__ ) ?>/compat/assets/img/sslforcloudflare.png" title="Cloudflare SSL by Weslink" /></a></div>
+					<div class="itemDescription">
+						CloudFlare Flexible SSL needs some tiny Modification to get not into a redirect loop. This Plugins makes your WordPress Site ready to use Cloudflare SSL and prevents the common SSL infinite loop Problem.
+					</div>
+					<div class="itemButtonRow"><div class="itemButton button-secondary"><a href="https://de.wordpress.org/plugins/ctw-ssl-for-cloudflare/" target="_blank"><?php echo __('More info', 'duplizieren-von-beitraegen-und-seiten'); ?></a></div></div>
+				</li>
+			</ul>
+		</section>
+
 
 	</form>
 </div>
